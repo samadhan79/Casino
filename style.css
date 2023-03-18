@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-width: 160px;
+    max-height: 80px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.header {
+    background-color: #2e0327;
+    padding: 20px 0;
+    z-index: 99;
+}
+
+.menu ul li {
+    padding: 7px 0;
+    list-style: none;
+
+}
+
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 4px 15px;
+    font-family: Josefin Sans", sans-serif;
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 200, 39, 0.1);
+
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.banner-section {
+    padding: 160px 0 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.banner-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    background-color: #2e0327;
+}
+
+.banner-content {
+    max-width: 700px;
+    position: relative;
+}
+
+.shap1 {
+    position: absolute;
+    top: -100px;
+    left: -150px;
+    z-index: -2;
+    opacity: .25;
+    max-width: 250px;
+}
+
+.bg-mg {
+    background-image: url('https://template.viserlab.com/casinous/demo/assets/images/banner/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner-content__title {
+    margin-bottom: 15px;
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.4;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.banner-content__subtitle {
+    color: white;
+    font-size: 22px;
+    max-width: 550px;
+}
+
+.banner-thumb {
+    max-width: 400px;
+}
+
+.text--base {
+    color: yellow;
+}
